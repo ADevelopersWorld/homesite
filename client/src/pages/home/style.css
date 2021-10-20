@@ -1,0 +1,5 @@
+/* When transitioning to SASS implement a variable for color green (look up terminal green) */
+#head {
+    padding-left: 19rem;
+    color: green;
+}
