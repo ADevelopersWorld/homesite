@@ -1,4 +1,5 @@
 import "./style.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Terminal from "./components/terminal";
 import Matrix from "./components/matrix";
 import Home from "./pages/home";
