@@ -1,7 +1,7 @@
 /* When transitioning to SASS implement a variable for color green (look up terminal green) */
 
 #head {
-    
+    justify-content: center;
     color: green;
  
 }

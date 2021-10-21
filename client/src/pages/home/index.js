@@ -1,39 +1,25 @@
 import "./style.css";
 import Row from "react-bootstrap/Row";
-import Col from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
-import Video from "../../components/video";
-import video from './FromPolitical.mp4';
-import v2 from './Technology.mp4';
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+
+
+import TechL from "../../landing/technology/landing";
+import NewsL from "../../landing/news/landing";
 const Home = () => {
   return (
     <div id="head">
-      <Container fluid>
-  <Row>
-    <Col></Col>
-    <Col>Welcome To LAW</Col>
-    <Col></Col>
-  </Row>
+      <Container>
+    
 
-
-  <Row>
-  <Col></Col>
-  <Col></Col>
-  <Col>Logic At Work</Col>
-</Row>
-
-<Row>
-<Col></Col>
-<Col ><Video
-sample={video}/></Col>
-<Col ><Video sample2={v2}/></Col>
-</Row>
-
-
-
-</Container>
-       
-      
+        <Row style={{alignContent:'center'}}>
+          <Col lg={6}>  
+          <NewsL/> </Col>
+          <Col lg={6}><TechL/></Col>
+        </Row>
+        
+      </Container>
+   
     </div>
   );
 };
