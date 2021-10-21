@@ -1,7 +1,7 @@
 /* When transitioning to SASS implement a variable for color green (look up terminal green) */
 
 #head {
-   text-align: center;
+    
     color: green;
-    padding-top: 2.5rem;
+ 
 }
