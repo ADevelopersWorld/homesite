@@ -6,7 +6,22 @@
     
     position: fixed;
     top: 50%;
-    left: 30%;
+    /* left: 30%; */
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.videoTag2 {
+    width: 380px;
+    height: 3000px;  
+    /* padding: 50px; */
+
+    
+    position: fixed;
+    top: 50%;
+    /* right: 1%; */
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
  
